@@ -16,7 +16,7 @@
             <div class="col-md-12">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container-fluid">
-                      <h2>Linked<span>
+                       <h2>Linked<span>
                         <i class="bi bi-linkedin"></i>
                       </span></h2>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,46 +38,90 @@
                           </li>
                         </ul>
                         <form class="d-flex">
-                            <button class="btn btn-outline-success" type="submit">Join now</button>
-                            <button class="btn btn-outline-success ms-3" type="submit">Sign in</button>
+                            <button class="btn btn-outline btnJoin " type="submit">Join now</button>
+                            <button class="btn btn-outline ms-3 btnSingin-navbar " type="submit">Sign in</button>
                         </form>
                       </div>
                     </div>
                   </nav>
             </div>
         </div>
-       <main class ="container mt-5 ">
+       <main class ="container ">
          <div class="main_about row ">
            <div class="col-md-6">
-             <h1>Welcome to your professional community</h1>
+             <h1 class="main-heading">Welcome to your professional community</h1>
              <form class="form-signin" action="process-login.php" method="post">
               <input type="email" id="inputEmail" name="txtEmail" class="form-control mt-3 mb-3" placeholder="Email or phone number" required autofocus>
               <input type="password" id="inputPassword" name="txtPass" class="form-control" placeholder="Password" required>
-              <div class="checkbox mb-3">
+              <div class="checkbox mb-3 mt-3">
                 <a href="#" class="forgot-password-link">
                   Forgot Password?
                 </a>
               </div>
-              <button class="btn btn-lg btn-primary btn-block" type="submit" name="btnSignIn" >Sign in</button><hr>
+              <button class="btn btn-lg btn-primary btn-block btn-from-singin " type="submit" name="btnSignIn" >Sign in</button>
           </form>
            </div>
            <div class="col-md-6" >
-             <img  src="images/image1.PNG" alt="">
+             <img class="heading-image" src="images/image1.PNG" alt="">
            </div>
          </div>
        </main>
-       <section class="container mt-5">
-         <div class="content row">
-           <div class="col-md-6">
-             <h1>Explore topics you are interested in</h1>
+       <section class="container-content mt-5">
+         <div class="content-topic row">
+           <div class="col-md-6 ">
+             <h1 class="text-content">Explore topics you are interested in</h1>
            </div>
            <div class="col-md-6">
-             <h4>CONTENT TOPICS</h4>
-
+             <h4 class="text-content-topic">CONTENT TOPICS</h4>
+             <a class="btn btn-content-topic " href="#" role="button">See All Topics</a>
+             <a class="btn btn-content-topic " href="#" role="button">Science and Environment</a>
+             <a class="btn btn-content-topic " href="#" role="button">Marketting and Advertising</a>
+             <a class="btn btn-content-topic " href="#" role="button">Sales and Redtail</a>
+             <a class="btn btn-content-topic " href="#" role="button">Technology</a>
+             <a class="btn btn-content-topic " href="#" role="button">Finance and Economy</a>
+             <a class="btn btn-content-topic " href="#" role="button">Health</a>
+             <a class="btn btn-content-topic "  href="#" role="button">Búiness anh Managenment</a>
+             <a class="btn btn-content-topic " href="#" role="button">Lifestyle and Leisure</a>
+             <a class="btn btn-content-topic " href="#" role="button">Society anh Culture</a>
+             <a class="btn btn-content-topic " href="#" role="button">Arts and Entertainment</a>
+            <div class="show-more">
+              <button class="btn-show-more" >Show more</button>
+              <a class="btn btn-content-topic btn-content-topic-none  " href="#" role="button">Education and Learning</a>
+              <a class="btn btn-content-topic btn-content-topic-none " href="#" role="button">Sports and Fitness</a>
+              <a class="btn btn-content-topic btn-content-topic-none " href="#" role="button">Careers and Employment</a>
+            </div>
            </div>
          </div>
        </section>
-
+       <section class="container-find">
+         <div class="suggest-find row">
+           <div class="col-md-6">
+             <h1 class="text-find">Find the right job or internship for you</h1>
+           </div>
+           <div class="col-md-6">
+             <h4 class="text-suggest">SUGGESTED SEARCHES</h4>
+             <a class="btn btn-suggest-search" href="#" role="button">Engineering</a>
+             <a class="btn btn-suggest-search" href="#" role="button">Business Development</a>
+             <a class="btn btn-suggest-search" href="#" role="button">Finance</a>
+             <a class="btn btn-suggest-search" href="#" role="button">Administrative Assitant</a>
+             <a class="btn btn-suggest-search" href="#" role="button">Retail Associate</a>
+             <a class="btn btn-suggest-search" href="#" role="button">Customer Service</a>
+             <a class="btn btn-suggest-search" href="#" role="button">Openrations</a>
+             <a class="btn btn-suggest-search" href="#" role="button">InFormation Technology</a>
+             <a class="btn btn-suggest-search" href="#" role="button">Marketing</a>
+           </div>
+         </div>
+       </section>
+       <section class ="container-post">
+         <div class="post-job row">
+           <div class="col-md-6">
+             <h1 class="text-post">Post your job for millions of people to see</h1>
+           </div>
+           <div class="col-md-6">
+             <a class="btn btn-suggest-search"href="#" role="button">Post a job</a>
+           </div>
+         </div>
+       </section>
     </header>
 </body>
 </html>
