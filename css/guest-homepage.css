@@ -136,3 +136,30 @@ main.container {
     color:#b24020;
     font-weight: 200;
 }
+.img-carosel{
+    width: 80%;
+    margin-top: 40px;
+}
+.Content-carosel{
+    padding-top: 12%;
+    padding-left: 48px;
+}
+h4.title-carosel {
+    font-size: 40px;
+    color: #2977c9;
+    font-weight: 400;
+}
+p.text-carosel{
+    font-size:32px;
+    font-weight: 200;
+}
+.img-connect{
+    width: 60%;
+}
+.text-connect{
+    font-size: 40px;
+    font-weight: 100;
+}
+.btn-outline-secondary{
+    border-radius: 24px;
+}
