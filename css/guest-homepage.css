@@ -153,6 +153,12 @@ p.text-carosel{
     font-size:32px;
     font-weight: 200;
 }
+.container-connect {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
 .img-connect{
     width: 60%;
 }
@@ -162,4 +168,20 @@ p.text-carosel{
 }
 .btn-outline-secondary{
     border-radius: 24px;
+}
+.video-Youtube{
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.text-video-youtube{
+    padding-left: 40px;
+    font-size: 40px;
+    font-weight: 400;
+    color:#b24020;
 }
