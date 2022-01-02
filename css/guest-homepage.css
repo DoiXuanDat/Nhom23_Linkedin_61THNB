@@ -94,6 +94,7 @@ main.container {
 }
 .btn-content-topic:hover{
    background-color: #c4bebd;
+   text-decoration: underline;   
 }
 .btn-content-topic-none{
     display: none ;
@@ -125,6 +126,7 @@ main.container {
 }
 .btn-suggest-search:hover{
     background-color: #c4bebd ;
+    text-decoration: underline;   
 }
 .post-job{
     margin: 0;
@@ -207,7 +209,32 @@ p.text-carosel{
 }
 .last-footer{
     padding: 24px 22px;
+    background-color:#faf9f7 ;
 }
 ul{
     list-style-type: none;
+}
+ul>li>a{
+    text-decoration: none;
+    color: #6a7073;
+    font-weight: 600;
+}
+ul>li>a:hover{
+    color: #2977c9;
+    text-decoration: underline;
+}
+.li-footer{
+  list-style-type: none ;
+  font-size: 12px;
+  flex-wrap: wrap;
+  height: auto;
+}
+.col-md-1>li>a{
+ color: #6a7073;
+ text-decoration: none;
+ font-weight: 600;
+}
+.col-md-1>li>a:hover{
+    color: #2977c9;
+    text-decoration: underline;
 }
