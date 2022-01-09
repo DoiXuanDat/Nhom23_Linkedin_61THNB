@@ -13,17 +13,16 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
-           <nav class="navbar navbar-expand-lg navbar-light  fixed-top">
-               <div class="container-fluid" style="width: 1000px">
-                   <a class="nav-logo" href="#">
+    <header class="container-fluid">
+           <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top ">
+               <div class="container-fluid ms-5" >
+                   <a class="nav-logo ms-5">
                        <i class="bi bi-linkedin"><link rel="stylesheet" href="home.html"></i>   
                    </a>
                    <nav class="navbar navbar-light bg-white">
                        <div class="container-fluid" style="width: 300px">
                            <div class="input-group flex-nowrap">
-                               <input type="text" class="form-control"  placeholder=" Search" aria-label="Username"
+                               <input type="text" class="form-control" placeholder="   Search" aria-label="Username"
                                    aria-describedby="addon-wrapping">
                            </div>
                        </div>
@@ -38,21 +37,21 @@
                                </a>
                            </li>
                            <li class="nav-item">
-                               <a class="nav-link" href="#">
-                                   <i class="bi bi-people-fill" style="margin-left: 35px;">
+                               <a class="nav-link" href="My Network.html">
+                                   <i class="bi bi-people-fill" style="margin-left: 25px;">
                                        <div style="font-style: normal;">My Network</div>
                                    </i>
                                </a>
                            </li>
                            <li class="nav-item">
-                               <a class="nav-link" href="#">
+                               <a class="nav-link" href="Jobs.html">
                                    <i class="bi bi-briefcase-fill" style="margin-left: 8px;">
                                        <div style="font-style: normal;">Jobs</div>
                                    </i>
                                </a>
                            </li>
                            <li class="nav-item">
-                               <a class="nav-link" href="#">
+                               <a class="nav-link" href="Messaging.html">
 
                                    </i><i class="bi bi-send-fill" style="margin-left: 27px;">
                                        <div style="font-style: normal;">Messaging</div>
@@ -68,19 +67,55 @@
                                </a>
                            </li>
                            <li class="nav-item dropdown">
-                               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                   data-bs-toggle="dropdown" aria-expanded="false">
-                                   <i class="bi bi-person-circle"></i>
+                               <a class="nav-link me-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                   <i class="bi bi-person-circle" style="font-size: 18px;"></i>
+                                       <div class="text-nav" style="font-style: normal;">Me<i class="bi bi-caret-down-fill"></i>
+                                       </div>
+                                   </i>
                                </a>
-                               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                   <li><a class="dropdown-item" href="#">Action</a></li>
-                                   <li><a class="dropdown-item" href="#">Another action</a></li>
-                                   <li>
-                                       <hr class="dropdown-divider">
-                                   </li>
-                                   <li><a class="dropdown-item" href="#">Something else here</a></li>
-                               </ul>
-                           </li>
+                           <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="width: 240px;">
+                               <div class="my-sidebar list-group bg-white">
+                                   <div class="feed-identity-module m-2" style="display: inline;">
+                                       <a href="Profile.php" class="profile" style="display: inline;">
+                                           <img class="my-avartar col-md-3" src="Img/ava.jpg" style="display: inline;">
+                                           
+                                       </a>
+                                       <div class="list-group-item mt-2" style="border-radius: 16px; color: #0a66c2;">
+                                           <a href="Profile.php" class="" style="text-decoration: none;">
+                                               <div class="row text-align-center feed-identity">
+                                                   <span class="text-center" style="color: blue; font-size: 14px;">View Profile</span> 
+                                               </div>
+                                           </a>
+                                       </div>    
+                                   </div>
+                               </div>
+                               <div class="list-group-item">
+                                   <p style="color: black;">Account</p>
+                                       <a class="text-decoration-none" href="" style="font-size: 14px; color: #7e6565;">
+                                           <i class="bi bi-gem bg-warning"></i>
+                                               Try Premium for free
+                                       </a>
+                                   <ul class="list-unstyled"> 
+                                       <li class="mt-2"><a href="" class="text-decoration-none">Settings & Privacy</a></li>
+                                       <li class="mt-2"><a href="" class="text-decoration-none">Help</a></li>
+                                       <li class="mt-2"><a href="" class="text-decoration-none">Language</a></li>
+                                   </ul>
+                               </div>
+                               <div class="list-group-item">
+                                   <p style="color: black;">Manage</p>
+                                   <ul class="list-unstyled"> 
+                                       <li class="mt-2"><a href="" class="text-decoration-none">Posts & Activity</a></li>
+                                       <li class="mt-2"><a href="" class="text-decoration-none">Jobs posting Account</a></li>
+                                   </ul>
+                               </div>
+                               <div class="ms-3">
+                                   <a href="index.php" class="signout text-decoration-none">
+                                       Sign Out
+                                   </a>
+                               </div>
+                               
+                           </ul>
+                       </li>
                            <hr>
                            <li class="nav-item dropdown">
                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -101,10 +136,12 @@
                    </div>
                </div>
            </nav>
-       </div>
    </header>
-   <section>
-       
+   <section class="container-fluid notifications-Content ">
+        <div class="col-md-3 row notifications-Manage ">
+            Manage your Notifications
+            <a href="#">View Settings</a>
+        </div>
    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

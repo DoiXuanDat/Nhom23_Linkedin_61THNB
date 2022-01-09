@@ -1,3 +1,15 @@
-.nav-iteam{
+header.container-fluid{
+    display: block;
+    box-sizing: border-box;
 
+}
+section.container-fluid.notifications-Content{
+    margin-top: 80px;
+    padding: 0px 48px;
+    height: 530px;
+    background-color: #f3f2ef;
+}
+.notifications-Manage{
+    background-color: white;
+    border-radius: 2px;
 }
