@@ -8,10 +8,16 @@
   background-color: #eef3f8;
   border-color: white;
 }
-
+.nav-link{
+  display: flex;
+  align-items: center;
+}
 .navbar-nav {
-  margin-left: auto;
-  min-height: 52px;
+  align-items: center;
+}
+.main-about .main{
+    width: 500px;
+    margin-right: 18px;
 }
 .navbar-nav .nav-item {
   align-items: center;
@@ -26,7 +32,9 @@
   font-size: 12px;
   line-height: 18px;
 }
-
+.start-a-post{
+  margin: 0;
+}
 .my-avartar {
   border-radius: 50%;
 }
