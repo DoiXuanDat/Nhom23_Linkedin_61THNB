@@ -8,6 +8,9 @@
     width: 30px;
     height: 30px;
 }
+.card {
+  border-radius: 10px;
+}
 .navbar .input-group-text {
   background-color: #eef6ff;
   border-color: white;
