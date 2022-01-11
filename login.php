@@ -22,6 +22,7 @@
 <body>
 	<main>
 		<div class="container">
+			<form  action="process-login.php" method="post">
 			<h2>Linked<span>
 				<i class="fab fa-linkedin"></i>
 			</span></h2>
@@ -31,14 +32,14 @@
 			</div>
 			<div class="your-input">
 				<div class="input">
-					<input type="text" name="email"
-						id="email" required />
-					<label for="email">Email</label>
+					<input type="text"  name="txtEmail"
+					id="inputEmail" required autofocus>
+					<label for="inputEmail">Email</label>
 				</div>
 				<div class="input">
-					<input type="password" name="password"
-						id="password" required />
-					<label for="password">
+					<input type="password" name="txtPass"
+					id="inputPassword" required >
+					<label for="inputPassword">
 						Password
 					</label>
 				</div>
@@ -46,7 +47,7 @@
 			<a href="#" class="forgot-password-link">
 				Forgot Password?
 			</a>
-			<button class="btn-sign">Sign in</button>
+			<button class="btn-sign" type="submit" name="btnSignIn">Sign in</button>
 			<hr>
 			<button class="btn-signwapple"><i class="fab fa-apple"></i> Sign in with an Apple</button>
 			<p class="join-link">
@@ -55,6 +56,7 @@
 					Join now
 				</a>
 			</p>
+			</form>
 		</div>
 	</main>
 </body>
