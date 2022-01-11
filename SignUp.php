@@ -59,7 +59,7 @@
 			</div>
 		</section>
 	</main>
-	<footer>
+	<footer>	
 		<div  style="text-align: center;">
 		  <div class="col-md ms-5 me-5 " >
 			  <ul class="list-footer">

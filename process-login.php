@@ -9,7 +9,7 @@
         //Ở đây còn phải kiểm tra người dùng đã nhập chưa
 
         // Bước 01: Kết nối Database Server
-        $conn = mysqli_connect('localhost','root','','dhtl_danhba');
+        $conn = mysqli_connect('localhost','root','','linkedin_61thnb');
         if(!$conn){
             die("Kết nối thất bại. Vui lòng kiểm tra lại các thông tin máy chủ");
         }
