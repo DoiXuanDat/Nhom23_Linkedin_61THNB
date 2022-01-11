@@ -18,7 +18,7 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top ms-3">
                 <div class="container-fluid ms-5" >
                     <a class="nav-logo ms-5">
-                        <i class="bi bi-linkedin"><link rel="stylesheet" href="home.html"></i>   
+                        <i class="bi bi-linkedin"><link rel="stylesheet" href="home.php"></i>   
                     </a>
                     <nav class="navbar navbar-light bg-white">
                         <div class="container-fluid" style="width: 300px">
@@ -31,7 +31,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mb-2 mb-lg-0">
                             <li class="nav-item" style="margin-left: 145px;">
-                                <a class="nav-link" href="home.html">
+                                <a class="nav-link" href="Home.php">
                                     <i class="bi bi-house-door-fill">
                                         <div style="font-style: normal;">Home</div>
                                     </i>
@@ -60,7 +60,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="Notifications.html">
+                                <a class="nav-link" href="Notifications.php">
 
                                     </i><i class="bi bi-bell-fill" >
                                         <div style="font-style: normal;">Notifications</div>

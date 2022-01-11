@@ -32,14 +32,14 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item" style="margin-left: 145px;">
-                            <a class="nav-link" href="home.html">
+                            <a class="nav-link" href="Home.php">
                                 <i class="bi bi-house-door-fill" style="margin-left: 15px;">
                                     <div style="font-style: normal;">Home</div>
                                 </i>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="My Network.html">
+                            <a class="nav-link" href="MyNetwork.html">
                                 <i class="bi bi-people-fill" style="margin-left: 25px;">
                                     <div style="font-style: normal;">My Network</div>
                                 </i>
@@ -61,7 +61,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Notifications.html">
+                            <a class="nav-link" href="Notifications.php">
 
                                 </i><i class="bi bi-bell-fill" style="margin-left: 35px;">
                                     <div style="font-style: normal;">Notifications</div>
