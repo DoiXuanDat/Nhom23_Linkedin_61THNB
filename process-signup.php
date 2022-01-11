@@ -3,6 +3,7 @@
     //tôi coi các vấn đề không tồn tại ở đây
     if(!isset($_POST['btnSignup'])) {
         header("location:signup.php"); 
+        header("location:SignUp.php"); 
     }
 
     //toi coi moi du lieu la hop le
@@ -25,7 +26,7 @@
 
     if(mysqli_num_rows($result) > 0){
         $error = "Email is existed";
-        header("location: signup.php?error=$error"); //Chuyển hướng về trang quản trị
+        header("location: SignUp.php?error=$error"); //Chuyển hướng về trang quản trị
     }
     else{
         $sql02 = "INSERT INTO db_nguoidung(email,matkhau) values ('$email', '$pass') ";
