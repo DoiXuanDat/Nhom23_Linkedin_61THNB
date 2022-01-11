@@ -2,7 +2,6 @@
     //Một số kỹ thuận validate form được xử lý  ở Js
     //tôi coi các vấn đề không tồn tại ở đây
     if(!isset($_POST['btnSignup'])) {
-        header("location:signup.php"); 
         header("location:SignUp.php"); 
     }
 
