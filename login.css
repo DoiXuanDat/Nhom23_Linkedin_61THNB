@@ -91,13 +91,20 @@
 	background: rgba(10, 102, 195, 0.3);
 }
 
-button {
+.btn-sign {
 	height: 50px;
 	background: #0A66C3;
 	outline: none;
 	border: none;
 	border-radius: 30px;
 	color: #fff;
+	font-size: 1rem;
+	font-weight: bolder;
+}
+.btn-signwapple {
+	height: 50px;
+	border-radius: 30px;
+	color: black;
 	font-size: 1rem;
 	font-weight: bolder;
 }
@@ -117,7 +124,13 @@ color: #0A66C3;
 	font-weight: bolder;
 	padding: .2rem;
 }
-
+.btn-signwapple{
+	border-radius: 28px;
+	background-color: white;
+}
+.btn-signwapple:hover{
+	background-color: #f5f2f0;
+}
 .join-now:hover{
 	background: rgba(10, 102, 195, 0.3);
 }
