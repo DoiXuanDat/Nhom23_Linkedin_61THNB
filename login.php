@@ -10,21 +10,27 @@
 	<meta name="viewport" content=
 		"width=device-width, initial-scale=1.0" />
 	<title>LinkedIn Login Form Using HTML and CSS</title>
-
-
-	<!--Font Awesome-->
 	<link rel="stylesheet" href=
 		"https://use.fontawesome.com/releases/v5.7.0/css/all.css"
 		integrity=
-"sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+		"sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
 		crossorigin="anonymous" />
 
-	<!--Style CSS-->
+
 	<link rel="stylesheet" href="style.css" />
 
 </head>
 
 <body>
+	<header>
+		<nav class="navbar navbar-light bg-light">
+  			<div class="container">
+    			<a class="navbar-brand" href="#">
+      				<img src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">
+    			</a>
+  			</div>
+		</nav>
+	</header>	
 	<div class="container">
 		<h2>Linked<span>
 			<i class="fab fa-linkedin"></i>
