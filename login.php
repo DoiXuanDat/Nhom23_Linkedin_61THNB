@@ -49,7 +49,7 @@
 			</a>
 			<button class="btn-sign" type="submit" name="btnSignIn">Sign in</button>
 			<hr>
-			<button class="btn-signwapple"><i class="fab fa-apple"></i> Sign in with an Apple</button>
+			<button class="btn-signwapple"><i class="fab fa-apple"></i>Sign in with an Apple</button>
 			<p class="join-link">
 				New to linkedin?
 				<a href="#" class="join-now">
