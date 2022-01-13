@@ -44,21 +44,21 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="MyNetwork.html">
+                                <a class="nav-link" href="MyNetwork.php">
                                     <i class="bi bi-people-fill" >
                                         <div style="font-style: normal;">My Network</div>
                                     </i>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="Jobs.html">
+                                <a class="nav-link" href="Jobs.php">
                                     <i class="bi bi-briefcase-fill">
                                         <div style="font-style: normal;">Jobs</div>
                                     </i>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="Messaging.html">
+                                <a class="nav-link" href="Messaging.php">
 
                                     </i><i class="bi bi-send-fill">
                                         <div style="font-style: normal;">Messaging</div>
