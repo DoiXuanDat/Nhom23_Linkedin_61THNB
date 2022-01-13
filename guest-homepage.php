@@ -97,12 +97,6 @@
           <a class="btn btn-content-topic " href="#" role="button">Lifestyle and Leisure</a>
           <a class="btn btn-content-topic " href="#" role="button">Society anh Culture</a>
           <a class="btn btn-content-topic " href="#" role="button">Arts and Entertainment</a>
-          <div class="show-more mt-2">
-            <button class="btn-show-more">Show more</button>
-            <a class="btn btn-content-topic btn-content-topic-none  " href="#" role="button">Education and Learning</a>
-            <a class="btn btn-content-topic btn-content-topic-none " href="#" role="button">Sports and Fitness</a>
-            <a class="btn btn-content-topic btn-content-topic-none " href="#" role="button">Careers and Employment</a>
-          </div>
         </div>
       </div>
     </section>
