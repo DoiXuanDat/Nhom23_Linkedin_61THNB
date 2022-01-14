@@ -26,6 +26,10 @@
 						<div class="card-body p-4">
 			
 						<div class="form-outline mb-3">
+							<label for="inputUser" class="sr-only" style="font-size: 14px; color: #00000099;">User </label>
+							<input type="text" id="inputUser" name="txtUser" class="form-control form-control-lg"  placeholder="User namre" required autofocus>
+						</div>
+						<div class="form-outline mb-3">
 							<label for="inputEmail" class="sr-only" style="font-size: 14px; color: #00000099;">Email </label>
 							<input type="email" id="inputEmail" name="txtEmail" class="form-control form-control-lg"  placeholder="Email address" required autofocus>
 						</div>
