@@ -39,33 +39,31 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-<<<<<<< HEAD
-                                <a class="nav-link" href="My Network.php">
-=======
 
->>>>>>> 630160a9a646a1ca27e59ceae060cf541666591d
+                                <a class="nav-link" href="My Network.php">
+
+
+
                                     <i class="bi bi-people-fill" >
                                         <div style="font-style: normal;">My Network</div>
                                     </i>
                                 </a>
                             </li>
                             <li class="nav-item">
-<<<<<<< HEAD
-                                <a class="nav-link" href="Jobs.php">
-=======
 
->>>>>>> 630160a9a646a1ca27e59ceae060cf541666591d
+                                <a class="nav-link" href="Jobs.php">
+
+
+
                                     <i class="bi bi-briefcase-fill">
                                         <div style="font-style: normal;">Jobs</div>
                                     </i>
                                 </a>
                             </li>
                             <li class="nav-item">
-<<<<<<< HEAD
-                                <a class="nav-link" href="Messaging.php">
-=======
 
->>>>>>> 630160a9a646a1ca27e59ceae060cf541666591d
+                                <a class="nav-link" href="Messaging.php">
+
 
                                     </i><i class="bi bi-send-fill">
                                         <div style="font-style: normal;">Messaging</div>
