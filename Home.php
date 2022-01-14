@@ -24,9 +24,9 @@
          <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top ms-3">
                 <div class="container-fluid ms-5" >
-                    <a class="nav-logo ms-5">
-                        <i class="bi bi-linkedin"><link rel="stylesheet" href="home.php"></i>   
-                    </a>
+                    <a class="nav-logo ms-5" href="Home.php" >
+                        <i class="bi bi-linkedin"></i> 
+                    </a>    
                     <nav class="navbar navbar-light bg-white">
                         <div class="container-fluid" style="width: 300px">
                             <div class="input-group flex-nowrap">
