@@ -4,6 +4,10 @@
   background-color: #eef3f8;
   border-color: white;
 }
+.logo{
+  height: 30px;
+  width: 30px;
+}
 .navbar .input-group-text {
   background-color: #eef3f8;
   border-color: white;

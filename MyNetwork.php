@@ -15,10 +15,11 @@
 <body>
     <header>
          <div class="container">
+            .<div class="col-md-12">
             <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">      
                 <div class="container-fluid ms-5" >
-                    <a class="nav-logo ms-5">
-                        <img class="thu" src="Img/linkedin.png" alt="">
+                    <a class="nav-logo ms-5" href>
+                        <img class="logo" src="Img/linkedin.png" alt="">
                     </a>
                     <nav class="navbar navbar-light bg-white">
                         <div class="container-fluid" style="width: 300px">
@@ -31,28 +32,28 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mb-2 mb-lg-0">
                             <li class="nav-item" style="margin-left: 145px;">
-                                <a class="nav-link" href="home.html">
+                                <a class="nav-link" href="home.php">
                                     <i class="bi bi-house-door-fill">
                                         <div style="font-style: normal;">Home</div>
                                     </i>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="My Network.html">
+                                <a class="nav-link" href="My Network.php">
                                     <i class="bi bi-people-fill" >
                                         <div style="font-style: normal;">My Network</div>
                                     </i>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="Jobs.html">
+                                <a class="nav-link" href="Jobs.php">
                                     <i class="bi bi-briefcase-fill">
                                         <div style="font-style: normal;">Jobs</div>
                                     </i>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="Messaging.html">
+                                <a class="nav-link" href="Messaging.php">
 
                                     </i><i class="bi bi-send-fill">
                                         <div style="font-style: normal;">Messaging</div>
@@ -60,7 +61,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="Notifications.html">
+                                <a class="nav-link" href="Notifications.php">
 
                                     </i><i class="bi bi-bell-fill" >
                                         <div style="font-style: normal;">Notifications</div>

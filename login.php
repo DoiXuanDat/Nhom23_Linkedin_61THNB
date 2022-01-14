@@ -27,7 +27,7 @@
 	</header>
 
 	<main>
-		<div class="container">
+		<div class="container-fluid">
 			<form  action="process-login.php" method="post">
 				<h2>Linked<span>
 					<i class="fab fa-linkedin"></i>
@@ -63,6 +63,7 @@
 					</a>
 				</p>
 			</form>
+			</div>
 		</div>
 	</main>
 </body>
