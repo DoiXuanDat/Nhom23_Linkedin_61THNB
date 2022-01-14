@@ -13,7 +13,7 @@
   }
   
   .navbar-nav {
-    margin-left: auto;
+    margin-left: 0;
     min-height: 52px;
   }
   .navbar-nav .nav-item {
@@ -44,20 +44,20 @@ main{
     margin-left: 5%;
     width: 240px;
 }
-.sidebar_categories {
+.sidebar_notifications {
     display: flex;
     flex-direction: column;
     width: 100%;
     margin-top: 5px;
     margin-bottom: 10px;
 }
-.sidebar_categories .sidebar_category {
+.sidebar_notifications  .sidebar_notifications  {
     display: flex;
     align-items: center;
     padding: 10px 10px;
     margin-left: 10px;
   }
-.sidebar_categories .sidebar_category span {
+.sidebar_cnotifications  .sidebar_notifications  span {
     margin-left: 20px;
     cursor: pointer;
     display: flex;
