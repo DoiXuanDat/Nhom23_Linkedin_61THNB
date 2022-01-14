@@ -83,3 +83,75 @@ footer a:hover{
     position: -webkit-sticky;
     top: 15px;
 }
+.modal{
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.3);
+    align-items:flex-end;
+    justify-content: right;
+    
+}
+.modal-close{
+    position: absolute;
+    right: 0;
+    top:0;
+    padding: 5px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.modal-container{
+    background-color: #fff;
+    width: 380px ;
+    border-radius:2px ;
+    min-height: 400px;
+    position: relative;
+    animation: modalFadein ease .5s;
+}
+.modal-body{
+    display: flex;
+    align-items: baseline;
+}
+a.btn.btn-modal {
+    font-size: 12px;
+    border: solid 1px;
+    border-radius: 24px;
+    margin-top: 2px;
+}
+a.btn.btn-modal:hover{
+    background-color: rgb(128, 124, 124);
+}
+.modal-footer{
+    display: block;
+    
+}
+.modal-footer>a{
+    text-decoration: none;
+    margin: 0;
+}
+.modal-footer>a:hover{
+    text-decoration:underline;
+}
+.modal-footer>a>h2{
+    font-size: 14px;
+   color: #5e5e5e;
+   
+}
+.modal-footer>a>p{
+    font-size: 12px;
+    color: #c1c1c1;
+    margin-bottom: 5px;
+}
+.modal.open{
+    display: flex;
+}
+@keyframes modalFadein{
+    from {
+        transform: translateX(400px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}

@@ -28,7 +28,8 @@
         header("location: SignUp.php?error=$error"); //Chuyển hướng về trang quản trị
     }
     else{
-        $sql02 = "INSERT INTO db_nguoidung(email,matkhau) values ('$email', '$pass') ";
+        $sql02 = "INSERT INTO db_nguoidung(account,email,matkhau) values ('$user','$email', '$pass') ";
+        mysqli_set_charset($conn,"utf8");
         $result02 = mysqli_query($conn,$sql02);
         if($result02 == TRUE){
             header("location: login.php");
