@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -18,13 +17,13 @@
             <div class="container-fluid ms-5">
                 <a class="nav-logo ms-5">
                     <i class="bi bi-linkedin">
-                        <link rel="stylesheet" href="home.html">
+                        <link rel="stylesheet" href="home.php">
                     </i>
                 </a>
                 <nav class="navbar navbar-light bg-white">
                     <div class="container-fluid" style="width: 300px">
                         <div class="input-group flex-nowrap">
-                            <input type="text" class="form-control" placeholder="   Search" aria-label="Username"
+                            <input type="text" class="form-control" placeholder=" Search" aria-label="Username"
                                 aria-describedby="addon-wrapping">
                         </div>
                     </div>
@@ -39,21 +38,21 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="MyNetwork.html">
+                            <a class="nav-link" href="MyNetwork.php">
                                 <i class="bi bi-people-fill" style="margin-left: 25px;">
                                     <div style="font-style: normal;">My Network</div>
                                 </i>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Jobs.html">
+                            <a class="nav-link" href="#">
                                 <i class="bi bi-briefcase-fill" style="margin-left: 8px;">
                                     <div style="font-style: normal;">Jobs</div>
                                 </i>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Messaging.html">
+                            <a class="nav-link" href="#">
 
                                 </i><i class="bi bi-send-fill" style="margin-left: 27px;">
                                     <div style="font-style: normal;">Messaging</div>
@@ -211,24 +210,6 @@
             <a href="#">View Settings</a>
         </div>
     </section>
-    <script>
-        const modalBtn = document.querySelector('.js-modal-open')
-        const modal =document.querySelector('.modal')
-        const modalClose=document.querySelector('.js-modal-close')
-        //thêm open vào class modal
-        function showmodal(){
-            modal.classList.add('open')
-        }
-        // gỡ bỏ open ở class modal
-        function hidemodal(){
-            modal.classList.remove('open')
-        }
-        modalBtn.addEventListener('click',showmodal)
-        modalClose.addEventListener('click',hidemodal)
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-</body>
-
-</html>
+<?php
+    include("template/footer.php");
+?>

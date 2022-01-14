@@ -1,6 +1,7 @@
 <?php
     // kiểm tra đã đăng nhập mới cho vào
     session_start();
+
     if(!isset($_SESSION['isLoginOK'])){
         header("location:login.php");
     }
@@ -51,14 +52,14 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="Jobs.php">
+                                <a class="nav-link" href="#">
                                     <i class="bi bi-briefcase-fill">
                                         <div style="font-style: normal;">Jobs</div>
                                     </i>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="Messaging.php">
+                                <a class="nav-link" href="#">
 
                                     </i><i class="bi bi-send-fill">
                                         <div style="font-style: normal;">Messaging</div>
@@ -124,20 +125,13 @@
                             </ul>
                         </li>
                             <hr>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    <i class="bi bi-grid-3x3-gap"></i>
-                                </a>
-
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
+                            <li class="nav-item dropdown js-modal-open">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false"><i class="bi bi-grid-3x3-gap"></i>
+                                <div class="text-nav" style="font-style: normal;">Work<i
+                                        class="bi bi-caret-down-fill"></i>
+                                </div>
+                            </a>
                             </li>
                         </ul>
                     </div>
@@ -145,6 +139,74 @@
             </nav>
         </div>
     </header>
+    <div class="modal">
+       <div class="modal-container ">
+           <div class="modal-close js-modal-close">
+            <i class="bi bi-x"></i>
+           </div>
+           <div class="modal-header">
+            <h2 class="" style ="font-size: 16px;">
+                Visit More LinkedIn Products
+              </h2>
+           </div>
+           
+            <div class="modal-body row ">
+              <div class="col-md-3">
+                  <a class="btn btn-modal" href="#">Post a Job</a>
+              </div>
+              <div class="col-md-3">
+                <a class="btn btn-modal" href="#">Learning</a>
+            </div>
+            <div class="col-md-3">
+                <a class="btn btn-modal" href="#">Insight</a>
+            </div>
+            <div class="col-md-3">
+                <a class="btn btn-modal" href="#">Advertise</a>
+            </div>
+            <div class="col-md-3">
+                <a class="btn btn-modal" href="#">Find Leads</a>
+            </div>
+            <div class="col-md-3">
+              <a class="btn btn-modal" href="#">Groups</a>
+          </div>
+          <div class="col-md-3">
+              <a class="btn btn-modal" href="#">Services Marketplace</a>
+          </div>
+          <div class="col-md-3">
+              <a class="btn btn-modal" href="#">Salary</a>
+          </div>
+            </div> 
+            <div class="modal-footer">
+                <h2 class="" style ="font-size: 16px;">
+                    LinkedIn Business Services
+                  </h2>
+                  <a href="">
+                    <h2>Talent Solutions</h2>
+                    <p>Find, attract and recruit talent</p>
+                  </a>
+                  <a href="">
+                    <h2>Sales Solutions</h2>
+                    <p>Unlock sales opportunities</p>
+                  </a>
+                  <a href="">
+                    <h2>Post a job for free</h2>
+                    <p>Get your job in front of quality candidates</p>
+                  </a>
+                  <a href="">
+                    <h2>Talent Solutions</h2>
+                    <p>Acquire customers and grow your business</p>
+                  </a>
+                  <a href="">
+                    <h2>Learning Solutions</h2>
+                    <p>Develop talent across your organization</p>
+                  </a>
+                  <a href="">
+                    <h2>Create a Company Page<i class="bi bi-plus"></i></h2>
+                  </a>
+            </div>          
+       </div>
+
+    </div>
     <main class="container-fluid" style="background: #fcfbfa; margin-top: 80px;">
         <div class="row" style="height: 30px">
         </div>
@@ -493,7 +555,6 @@
         </div>
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-</body>
+<?php
+    include("template/footer.php");
+?>
