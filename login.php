@@ -58,14 +58,14 @@
 				<button class="btn-signwapple"><i class="fab fa-apple"></i>Sign in with an Apple</button>
 				<p class="join-link">
 					New to linkedin?
-					<a href="#" class="join-now">
+					<a href="Signup.php" class="join-now">
 						Join now
 					</a>
 				</p>
 				  </div>
 				  
 					<div class=" d-flex justify-content-center align-items-center mt-2" style="display: inline;">New to LinkedIn? 
-						<button class="btn-join"><a class="text-primary-50" href="#!">Join now</a></button>
+						<button class="btn-join"><a class="text-primary-50" href="Signup.php">Join now</a></button>
 					</div>
 				</div>
 			</div>
