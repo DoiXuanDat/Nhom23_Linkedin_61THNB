@@ -48,7 +48,7 @@
                             </li>
                             <li class="nav-item">
 
-                                <a class="nav-link" href="My Network.php">
+                                <a class="nav-link" href="MyNetwork.php">
 
 
 
@@ -70,7 +70,7 @@
                             </li>
                             <li class="nav-item">
 
-                                <a class="nav-link" href="Messaging.php">
+                                <a class="nav-link" href="#">
 
 
                                     </i><i class="bi bi-send-fill">

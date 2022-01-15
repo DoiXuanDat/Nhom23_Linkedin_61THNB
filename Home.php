@@ -52,7 +52,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href="Jobs.php">
                                     <i class="bi bi-briefcase-fill">
                                         <div style="font-style: normal;">Jobs</div>
                                     </i>

@@ -147,3 +147,11 @@ a.btn.btn-modal:hover{
 .modal.open{
     display: flex;
 }
+@keyframes modalFadein{
+    from {
+        transform: translateX(400px);
+    }
+    to{
+        transform: translateX(0);
+    }
+  }

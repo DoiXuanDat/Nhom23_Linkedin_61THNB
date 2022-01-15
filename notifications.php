@@ -37,7 +37,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="My Network.php">
+                                <a class="nav-link" href="MyNetwork.php">
 
                                     <i class="bi bi-people-fill" >
                                         <div style="font-style: normal;">My Network</div>
@@ -53,7 +53,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="Messaging.php">
+                                <a class="nav-link" href="#">
                                     </i><i class="bi bi-send-fill">
                                         <div style="font-style: normal;">Messaging</div>
                                     </i>
@@ -132,6 +132,74 @@
             </nav>
         </div>
     </header>
+    <div class="modal">
+       <div class="modal-container ">
+           <div class="modal-close js-modal-close">
+            <i class="bi bi-x"></i>
+           </div>
+           <div class="modal-header">
+            <h2 class="" style ="font-size: 16px;">
+                Visit More LinkedIn Products
+              </h2>
+           </div>
+           
+            <div class="modal-body row ">
+              <div class="col-md-3">
+                  <a class="btn btn-modal" href="#">Post a Job</a>
+              </div>
+              <div class="col-md-3">
+                <a class="btn btn-modal" href="#">Learning</a>
+            </div>
+            <div class="col-md-3">
+                <a class="btn btn-modal" href="#">Insight</a>
+            </div>
+            <div class="col-md-3">
+                <a class="btn btn-modal" href="#">Advertise</a>
+            </div>
+            <div class="col-md-3">
+                <a class="btn btn-modal" href="#">Find Leads</a>
+            </div>
+            <div class="col-md-3">
+              <a class="btn btn-modal" href="#">Groups</a>
+          </div>
+          <div class="col-md-3">
+              <a class="btn btn-modal" href="#">Services Marketplace</a>
+          </div>
+          <div class="col-md-3">
+              <a class="btn btn-modal" href="#">Salary</a>
+          </div>
+            </div> 
+            <div class="modal-footer">
+                <h2 class="" style ="font-size: 16px;">
+                    LinkedIn Business Services
+                  </h2>
+                  <a href="">
+                    <h2>Talent Solutions</h2>
+                    <p>Find, attract and recruit talent</p>
+                  </a>
+                  <a href="">
+                    <h2>Sales Solutions</h2>
+                    <p>Unlock sales opportunities</p>
+                  </a>
+                  <a href="">
+                    <h2>Post a job for free</h2>
+                    <p>Get your job in front of quality candidates</p>
+                  </a>
+                  <a href="">
+                    <h2>Talent Solutions</h2>
+                    <p>Acquire customers and grow your business</p>
+                  </a>
+                  <a href="">
+                    <h2>Learning Solutions</h2>
+                    <p>Develop talent across your organization</p>
+                  </a>
+                  <a href="">
+                    <h2>Create a Company Page<i class="bi bi-plus"></i></h2>
+                  </a>
+            </div>          
+       </div>
+
+    </div>
     <main class="container-fluid" style="background: #f3f2ef;height: 685px;width: 100%;">
         <div class="row" style="height: 24px">
             <div class="col-md-12"></div>
