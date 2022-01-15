@@ -1,20 +1,30 @@
 
 
-.container h2{
-	color: #0A66C3;
-	font-size: 1.6rem;
+.list-footer{
+    align-items: center;
+    display: flex;
+   justify-content: center;
 }
 
-.container h2 i{
-	font-size: 1.8rem;
-	padding-left: .1rem;
+.list-footer li{
+    display: flex;
+    margin: 0 10px;
+    text-align: left;
+}
+.list-footer a{
+    display: inline;
+    font-size: 12px;
+    text-align: left;
+    color: #8a6868;
 }
 
-.text p{
-	font-size: .8rem;
-	padding-top: 0.3rem;
+.list-footer li:hover{
+    text-decoration: underline;
 }
 
+.list-footer li a:hover{
+    color: blue;
+}
 .input {
 	position: relative;
 	width: 100%;
@@ -85,12 +95,16 @@
 	color: black;
 	font-size: 1rem;
 	font-weight: bolder;
+	width: 270px;
 }
-
+.card-body{
+	margin-top: 30px;
+}
 .join-link {
-text-decoration: none;
-font-weight: bolder;
-color: #0A66C3;
+	text-decoration: none;
+	font-weight: bolder;
+	color: #0A66C3;
+	margin-top: 60px;
 }
 
 .join-now{

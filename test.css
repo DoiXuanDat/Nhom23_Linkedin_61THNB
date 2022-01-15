@@ -97,11 +97,14 @@
 	font-weight: bolder;
 	width: 270px;
 }
-
+.card-body{
+	margin-top: 30px;
+}
 .join-link {
-text-decoration: none;
-font-weight: bolder;
-color: #0A66C3;
+	text-decoration: none;
+	font-weight: bolder;
+	color: #0A66C3;
+	margin-top: 60px;
 }
 
 .join-now{
