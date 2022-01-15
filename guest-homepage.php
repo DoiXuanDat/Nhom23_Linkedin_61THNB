@@ -46,7 +46,7 @@
               </ul>
               <form class="d-flex">
                 <button class="btn btn-outline btnJoin " type="submit"><a class="nav-link" href="signup.php">Join now</a></button>
-                <button class="btn btn-outline ms-3 btnSingin-navbar " type="submit"><a class="nav-link" href="login.php">SingIn</a></button>
+                <button class="btn btn-outline ms-3 btnSingin-navbar " type="submit"><a class="nav-link" href="login.php">Sign In</a></button>
               </form>
             </div>
           </div>
